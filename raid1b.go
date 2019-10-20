@@ -2,16 +2,16 @@ package student
 
 import "github.com/01-edu/z01"
 
-func Raid1a(x, y int) {
+func Raid1b(x, y int) {
 	x--
 	y--
-	leftup := 'o'
-	leftbot := 'o'
-	rightup := 'o'
-	rightbot := 'o'
-	vertical := '|'
+	leftup := '/'
+	leftbot := rune(92)
+	rightup := rune(92)
+	rightbot := '/'
+	vertical := '*'
 	middlsec := ' '
-	midllfir := '-'
+	midllfir := '*'
 
 	if (x < 0) || (y < 0) {
 
